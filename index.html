@@ -13,5 +13,19 @@
     <div class="note">D</div>
     <div class="note">E</div>
   </div>
+  <audio controls data-key="32" src="public/sounds/Piano.ff.C4.wav" type="audio/wav"></audio>
+  <script>
+    window.addEventListener('keydown', function(e) {
+      console.log(e.keyCode)
+      const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
+      console.log(audio)
+      
+
+      if(!audio) return // stop function from running is audio element does not exist
+      else {
+        audio.play()
+      }
+    })
+  </script>
 </body>
 </html>

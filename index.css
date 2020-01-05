@@ -1,7 +1,7 @@
 body {
   background-image: url("public/images/200733.jpg");
   background-color: green;
-  
+  background-position: center center;
 }
 
 .piano {
@@ -12,3 +12,18 @@ body {
   align-items: center;
   height: 100vh
 }
+
+.note {
+  padding: 1rem;
+  background: rgba(218, 165, 32, 0.5)
+}
+
+
+
+
+
+
+
+
+/* border: 2px solid goldenrod; */
+ /* background: rgba(218, 144, 32, 0.829); */
